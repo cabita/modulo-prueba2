@@ -12,7 +12,7 @@
 function moduloprueba2_menu($may_cache) {
   $items = array();
 
-  $items['helloworld'] = array(
+  $items['holamundo'] = array(
     'title' => 'Hola mundoooo!',
     'access callback' => TRUE,
     'page callback' => 'moduloprueba2_hello_world_page',
